@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a Playlist</h1>
+        <form action="/create_playlist" method="POST">
+            <input type="text" name="name" placeholder="Playlist Name" required>
+            <label for="song_ids">Select Songs (comma-separated IDs):</label>
+            <input type="text" name="song_ids" placeholder="e.g., 1,2,3">
+            <button type="submit">Create Playlist</button>
+        </form>
+        
+        
+    </div>
+</body>
+</html>
